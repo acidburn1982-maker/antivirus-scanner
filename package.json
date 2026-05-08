@@ -1,0 +1,26 @@
+{
+  "name": "antivirus-scanner",
+  "version": "1.0.0",
+  "description": "Cross-platform antivirus and malware scanner",
+  "main": "frontend/main.js",
+  "author": "acidburn1982-maker",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron frontend/main.js",
+    "dev": "electron-dev frontend/main.js",
+    "build": "react-scripts build",
+    "test": "jest",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "electron": "^25.0.0",
+    "electron-builder": "^24.4.0",
+    "react-scripts": "5.0.1",
+    "jest": "^29.5.0"
+  }
+}
